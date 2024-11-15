@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Décrire une Émotion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Quel mot utiliseriez-vous pour décrire cette émotion?</h1>
+        <p class="emotion-description">
+            Imaginez un instant où vous ressentez une forme de légèreté mêlée à un poids invisible, un
+            sentiment à la fois apaisant et perturbant, une fusion d’extase douce et de confusion douce-amère.
+            C’est une émotion qui semble être un entre-deux, ni vraiment heureuse ni triste, mais dans cet état
+            d’incompréhension douce. Comment la décririez-vous avec un seul mot?
+        </p>
+        <form>
+            <textarea class="response" placeholder="Écrivez votre réponse ici..." rows="4" cols="50"></textarea>
+            <br>
+            <button type="submit" class="submit-btn">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
